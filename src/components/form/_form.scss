@@ -1,0 +1,116 @@
+.application-form {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5rem 70rem; 
+    background-color: $color-grey-light-1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    @include respond(tab-land) {
+        padding: 5rem 50rem; 
+    }
+
+    @include respond(tab-port) {
+        padding: 5rem 40rem; 
+    }
+
+    @include respond(phone) {
+        padding: 5rem 20rem; 
+    }
+}
+
+.label{
+    font-size: 1.5rem;
+}
+
+.application-form h1 {
+    color: #333;
+    text-align: left;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.application-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.application-form input[type="text"],
+.application-form input[type="email"],
+.application-form input[type="tel"],
+.application-form select,
+.application-form textarea {
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.5rem;
+}
+
+.application-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.application-form input[type="file"] {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.application-form input[type="radio"],
+.application-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.application-form label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.application-form div {
+    margin-bottom: 1rem;
+}
+
+.application-form button {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 20rem;
+    padding: 1rem;
+    background-color: $color-primary-dark;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 2rem;
+}
+
+.application-form button:hover {
+    background-color: $color-primary-medium;
+}
+
+/* Styling for radio buttons and checkboxes labels */
+.application-form div > label {
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+/* Add some space between the radio/checkbox and its label */
+.application-form div > label > input[type="radio"],
+.application-form div > label > input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style the file input button to match the form */
+.application-form input[type="file"] {
+    cursor: pointer;
+}
+
+/* Style for terms and SMS agreement */
+.application-form label > input[type="checkbox"] {
+    margin-bottom: 0;
+}
+
+/* Additional styling to mimic the provided screenshot as closely as possible */
+

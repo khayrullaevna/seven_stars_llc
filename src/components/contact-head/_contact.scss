@@ -1,0 +1,88 @@
+.contactHeader {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      hsla(220, 86%, 5%, 0.342),
+      hsla(226, 35%, 15%, 0.376)
+    ),
+    url(../../img/ss4.png);
+  background-size: cover;
+  background-position: top;
+
+  &__title {
+    padding: 25rem;
+    font-size: 7vw;
+    color: white;
+    animation: moveInLeft 2s ease-out;
+
+    @include respond(tab-port) {
+      padding: 27rem 15rem;
+      font-size: 9vw;
+    }
+
+    @include respond(phone) {
+      padding: 27rem 15rem;
+      font-size: 10vw;
+    }
+  }
+
+  &__card {
+    padding: 2vw 0;
+    background-color: white;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(10%, -20%);
+    box-sizing: border-box;
+
+    @include respond(tab-port) {
+      padding: 3vw 0;
+      width: 25vw;
+      height: 25vw;
+    }
+
+    @include respond(phone) {
+      padding: 4vw 0;
+      width: 35vw;
+      height: 35vw;
+    }
+  }
+
+  &__name {
+    margin: 0.3vw;
+    text-align: center;
+    font-size: 1vw;
+    color: #98b3c4;
+    text-transform: uppercase;
+
+    @include respond(tab-port) {
+      margin: 0.4vw;
+      font-size: 1.2vw;
+    }
+
+    @include respond(phone) {
+      margin: 0.7vw;
+      font-size: 1.7vw;
+    }
+  }
+
+  &__answer {
+    margin: 0.4vw;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #0b283c;
+
+    @include respond(tab-port) {
+      margin: 0.4vw;
+      font-size: 1.7vw;
+    }
+
+    @include respond(phone) {
+      margin: 0.7vw;
+      font-size: 2.2vw;
+    }
+  }
+}

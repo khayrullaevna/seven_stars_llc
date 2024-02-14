@@ -1,0 +1,182 @@
+.card{
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 50rem;
+    border: none;
+
+    @include respond(tab-port) {
+        margin: 0 auto;
+        max-width: 40rem;
+    }
+
+    @include respond(phone) {
+        margin: 0 auto;
+        max-width: 40rem;
+    }
+
+    @include respond(big-desktop) {
+       
+    }
+
+    &__side{
+        font-size: 2rem;
+        height: 40rem;
+        transition: all 1s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        border-radius: 5rem;
+        overflow: hidden;
+        box-shadow: 0 1.5rem 4rem rgba(0,0,0, .3);
+
+        @include respond(tab-land) {
+            height: 40rem;
+        }
+    
+        @include respond(tab-port) {
+            height: 45rem;
+        }
+    
+        @include respond(phone) {
+            height: 50rem;
+        }
+    
+        @include respond(big-desktop) {
+           
+        }
+
+        &--front{
+            background-color: #eee;
+        }
+
+        &--back{
+            background-color: #eeeeeed0;
+            transform: rotateY(180deg);
+        }
+    
+    }
+
+    &:hover &__side--front {
+        transform: rotateY(-180deg);
+    }
+
+    &:hover &__side--back {
+        transform: rotateY(0deg);
+    }
+
+    //Front
+    &__picture {
+        background-size: cover;
+        height: 23rem;
+        background-blend-mode: screen;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+
+        @include respond(tab-land) {
+            height: 22rem;
+        }
+    
+        @include respond(tab-port) {
+            height: 30rem;
+        }
+    
+        @include respond(phone) {
+            height: 35rem;
+        }
+    
+        @include respond(big-desktop) {
+            height: 24rem;
+        }
+
+        &--1 {
+            background-image: linear-gradient(to right bottom,hsla(224, 35%, 34%, 0.7),hsla(228, 67%, 17%, 0.7)), url(../img/a.jpg);
+            
+        }
+
+        &--2 {
+            background-image: linear-gradient(to right bottom,hsla(224, 35%, 34%, 0.9),hsla(228, 67%, 17%, 0.9)), url(../img/aa.jpg);
+        }
+
+        &--3 {
+            background-image: linear-gradient(to right bottom,hsla(224, 35%, 34%, 0.7),hsla(228, 67%, 17%, 0.7)), url(../img/aaa.jpg);
+        }
+
+        &--4 {
+            background-image: linear-gradient(to right bottom,hsla(224, 35%, 34%, 0.7),hsla(228, 67%, 17%, 0.7)), url(../img/aaaa.jpg);
+        }
+    }
+
+    &__heading{
+        padding: 0 0.5rem;
+        text-align: center;
+        font-size: 2.9rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: rgba(7, 18, 50, 0.7);
+
+        @include respond(tab-land) {
+            font-size: 3rem;
+        }
+    
+        @include respond(tab-port) {
+            font-size: 3.5rem;
+        }
+    
+        @include respond(phone) {
+            font-size: 4rem;
+        }
+    }
+
+    &__details{
+        padding: 0 0.5rem 1rem;
+        text-align: center;
+        font-size: 2.2rem;
+        font-weight: 200;
+        color: rgba(39, 57, 109, 0.7);
+
+        @include respond(tab-land) {
+            padding: 0.7rem;
+            font-size: 2rem;
+        }
+    
+        @include respond(tab-port) {
+            font-size: 3rem;
+        }
+    
+        @include respond(phone) {
+            font-size: 3.5rem;
+        }
+    
+        @include respond(big-desktop) {
+            padding-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+    }
+
+    &__text {
+        padding: 5rem 2rem;
+        text-align: center;
+        font-size: 1.65rem;
+        font-weight: 200;
+        color: rgba(39, 57, 109, 0.7);
+
+        @include respond(tab-land) {
+            padding: 5rem 2rem;
+            font-size: 1.3rem;
+        }
+    
+        @include respond(tab-port) {
+            padding: 5rem 2rem;
+            font-size: 2.3rem;
+        }
+    
+        @include respond(phone) {
+            padding: 5rem 2rem;
+            font-size: 2.5rem;
+        }
+
+    }
+
+}

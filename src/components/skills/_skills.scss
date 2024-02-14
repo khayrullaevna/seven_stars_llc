@@ -1,0 +1,104 @@
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.skills-box{
+    background-color: rgba($color-white, .8);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 4rem;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    transition: transform .3s;
+    width: 25rem;
+    height: 45rem;
+    box-sizing: border-box;
+    
+    @include respond(tab-land) {
+        margin: 0 auto;
+        width: 23rem;
+        height: 40rem;
+    }
+
+    @include respond(tab-port) {
+        margin: 0 auto;
+        width: 45rem;
+        height: 35rem;
+    }
+
+    @include respond(phone) {
+        margin: 0 auto;
+        width: 36rem;
+        height: 40rem;
+    }
+
+    @include respond(big-desktop) {
+     
+    }
+
+    &__icon{
+        width: 10rem;
+        margin: 0 auto;
+    }
+
+    &:hover{
+        transform: translateY(-1.5rem) scale(1.03);
+    }
+
+    &__heading{
+        padding: 1rem 0;
+        font-size: 3.5rem;
+        color: $color-primary-dark;
+
+        @include respond(tab-land) {
+            font-size: 3rem;
+            padding: 0.5rem;
+            // margin: 1rem;
+        }
+    
+        @include respond(tab-port) {
+            font-size: 3.5rem;
+            padding: 1rem;
+        }
+    
+        @include respond(phone) {
+            font-size: 3rem;
+            padding: 2rem 3rem;
+        }
+    
+        @include respond(big-desktop) {
+            font-size: 2rem;
+        }
+    }
+
+    &__text{
+        padding: 0 1rem;
+        font-size: 1.8rem;
+        color: $color-primary-medium;
+        margin: 0 auto;
+        box-sizing: border-box;
+
+        @include respond(tab-land) {
+            font-size: 1.5rem;
+            padding: 0.5rem;
+        }
+    
+        @include respond(tab-port) {
+            font-size: 2rem;
+            padding: 1rem;
+        }
+    
+        @include respond(phone) {
+            font-size: 2rem;
+            padding: 2rem 2rem;
+        }
+    
+        @include respond(big-desktop) {
+            font-size: 2rem;
+        }
+    }
+}
+
+

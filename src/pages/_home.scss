@@ -1,0 +1,96 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    // font-size: 62.5%; //1rem = 10px  10px/16px=62.5%
+    font-size: 35%; 
+
+    @include respond(tab-land) {
+        // font-size: 56.25%;  // 1rem = 9px 9px/16px= 50%
+        font-size: 32%; 
+    }
+
+    @include respond(tab-port) {
+        // font-size: 50%;   // 1rem = 8px 8px/16px=
+        font-size: 30%; 
+    }
+
+    @include respond(phone) {
+        // font-size: 30%; 
+        font-size: 30%;   
+    }
+
+    @include respond(big-desktop) {
+        // font-size: 75%;    // 1rem = 12px 12px/16px
+        font-size: 40%; 
+    }
+
+}
+
+body{
+    box-sizing: border-box;
+    // padding: 3rem;
+
+    @include respond(tab-port) {
+        padding: 0;
+    }
+    @include respond(tab-land) {
+        padding: 0;
+    }
+}
+
+.section-about{
+    background-color: $color-grey-light-1;
+}
+
+.section-skills{
+    padding: 10rem 1rem;
+    background-image:  linear-gradient(to right bottom, 
+    hsla(223, 35%, 34%, 0.446),
+    hsla(228, 67%, 17%, 0.55)) ,url(../../img/ss3.png);
+    background-size: cover;
+    background-position: center;
+
+
+    @include respond(tab-land) {
+        padding: 5rem 1rem 10rem;
+    }
+
+    @include respond(tab-port) {
+        padding: 7rem 12rem;
+    }
+
+    @include respond(phone) {
+        padding: 7rem 10rem;
+    }
+
+    &__heading{
+        display: block;
+        color: white;
+        padding: 4rem;
+        text-align: center;
+        font-size: 5.5rem;
+        letter-spacing: 0.3rem;
+        font-weight: 400;
+        animation: moveInLeft 2s ease-out;
+
+        @include respond(tab-land) {
+            font-size: 5rem;
+            padding: 5rem;
+        }
+    
+        @include respond(tab-port) {
+            font-size: 4rem;
+            padding: 0 0 5rem;
+        }
+    
+        @include respond(phone) {
+            font-size: 3rem;
+            padding: 2.5rem;
+        }
+    }
+}
+

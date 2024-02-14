@@ -1,0 +1,23 @@
+.header{
+    position: relative;
+    height: 100vh;
+    background-image:  linear-gradient(to right bottom, 
+    hsla(223, 35%, 34%, 0.611),
+    hsla(228, 67%, 17%, 0.742)) ,url(../../img/head.jpg);
+    background-size: cover;
+    background-position: top;
+
+    &__logo-box{
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__text-box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        text-align: center;
+    }
+}
