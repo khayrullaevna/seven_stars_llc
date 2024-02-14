@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 
 export default function AboutInfo() {
   return (
@@ -11,17 +12,16 @@ export default function AboutInfo() {
           height: "auto",
         }}
       >
-        <video
-          autoPlay={true}
-          muted
+<ReactPlayer
+          url="vid/ss-v-1.webm"
+          playing
           loop
+          muted
           width="100%"
           height="auto"
-          style={{ width: "100%", height: "auto" }}
-        >
-          <source src="vid/ss-v-1.mp4" />
-        </video>
-        {/* Adding gradient overlay */}
+          style={{ position: "relative", top: 0, left: 0 }}
+        />
+        {/* Gradient overlay */}
         <div
           style={{
             position: "absolute",

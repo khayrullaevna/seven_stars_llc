@@ -6,12 +6,15 @@ import DriverHeader from '../components/drivers/DriverHeader'
 import Need from '../components/need/Need'
 import Swiper from '../components/swiper/Swiper'
 import Form from '../components/form/Form'
+import VideoSlider from '../components/swiper/Swiper'
 
 
 export default function Drivers() {
   return (
     <div>
-      <Swiper />
+      {/* <Swiper /> */}
+      
+      <VideoSlider />
       <Need />
       <Form  />
       <Navigation />
