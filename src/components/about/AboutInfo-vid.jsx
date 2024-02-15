@@ -1,5 +1,5 @@
 import React from "react";
-// import ReactPlayer from "react-player"; // Remove ReactPlayer import
+import ReactPlayer from "react-player";
 
 export default function AboutInfo() {
   return (
@@ -12,7 +12,7 @@ export default function AboutInfo() {
           height: "auto",
         }}
       >
-        {/* <ReactPlayer
+<ReactPlayer
           url="vid/ss-v-1.webm"
           playing
           loop
@@ -20,11 +20,6 @@ export default function AboutInfo() {
           width="100%"
           height="auto"
           style={{ position: "relative", top: 0, left: 0 }}
-        /> */}
-        <img
-          src="img/about.png"
-          alt="Video"
-          style={{ width: "100%", height: "auto" }}
         />
         {/* Gradient overlay */}
         <div
@@ -41,17 +36,13 @@ export default function AboutInfo() {
         <div
           style={{
             position: "absolute",
-            padding: '10vw',
-            top: "27%",
+            top: "23%",
             left: "50%",
             right: "-40%",
             transform: "translate(-50%, -50%)",
             textAlign: "center",
             color: "white",
             fontSize: "3vw",
-            textShadow: "2px 2px 4px rgba(0,0,0,1)",
-            animation: "fadeInUpward 1s ease-out forwards",
-            transition: "color 0.5s ease, transform 0.5s ease",
           }}
         >
           At Seven Stars LLC, we don't just deliver goods; we deliver on our
@@ -67,9 +58,6 @@ export default function AboutInfo() {
             textAlign: "center",
             color: "white",
             fontSize: "4vw",
-            textShadow: "2px 2px 4px rgba(0,0,0,1)",
-            animation: "fadeInUpward 1s ease-out forwards",
-            transition: "color 0.5s ease, transform 0.5s ease",
           }}
         >
           Experience the difference with us today.

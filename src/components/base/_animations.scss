@@ -41,3 +41,14 @@
         transform: translateX(0);
     }  
 }
+
+@keyframes fadeInUpward {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -60%); /* Start slightly higher */
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%); /* End at the desired position */
+    }
+  }
