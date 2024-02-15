@@ -30,8 +30,8 @@ export default function Swiperr() {
               style={{
                 position: "absolute",
                 top: "70%",
-                left: "72%",
-                transform: "translate(-25%, -70%)",
+                left: "70%",
+                transform: "translate(-40%, -65%)",
                 fontSize: "10rem",
                 fontWeight: "bold",
                 textAlign: "right",
@@ -86,8 +86,8 @@ export default function Swiperr() {
             <div
               style={{
                 position: "absolute",
-                top: "87%",
-                transform: "translate(5%, -30%)",
+                top: "85%",
+                transform: "translate(10%, -30%)",
                 fontSize: "10rem",
                 fontWeight: "bold",
                 textAlign: "center",
@@ -96,7 +96,7 @@ export default function Swiperr() {
                 transition: "color 0.5s ease, transform 0.5s ease",
               }}
             >
-              <p style={{ fontSize: "3.5vw", margin: 0 }}>
+              <p style={{ fontSize: "3vw", margin: 0 }}>
                 We understand the importance of safeguarding your valuable
                 assets
               </p>
