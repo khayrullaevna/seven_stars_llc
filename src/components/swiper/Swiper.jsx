@@ -19,7 +19,7 @@ export default function Swiperr() {
         }}
         loop={true}
       >
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <div style={{ position: "relative", width: "100%", height: "100%" }}>
             <img
               src="img/1.png"
@@ -74,7 +74,7 @@ export default function Swiperr() {
               </p>
             </div>
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
 
         <SwiperSlide>
           <div style={{ position: "relative", width: "100%", height: "100%" }}>
@@ -86,9 +86,9 @@ export default function Swiperr() {
             <div
               style={{
                 position: "absolute",
-                top: "82%",
-                left: "5%",
-                right: "5%",
+                top: "80%",
+                left: "2%",
+                right: "2%",
                 // transform: "translate(0%, -5%)",
                 fontWeight: "bold",
                 textAlign: "center",
