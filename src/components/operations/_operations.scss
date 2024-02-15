@@ -27,25 +27,27 @@
 
     &__sub{
         padding: 0rem 20rem;
-        font-size: 2.5rem;
+        font-size: 4rem;
         font-weight: 200;
         letter-spacing: 0.1rem;
         animation: moveInRight 3s ease-out;
 
         @include respond(tab-land) {
-            font-size: 2rem;
+            font-size: 3rem;
         }
     
         @include respond(tab-port) {
-            font-size: 2rem;
+            font-size: 2.5rem;
+            padding: 0rem 15rem;
         }
     
         @include respond(phone) {
             font-size: 1.5rem;
+            padding: 0rem 9rem;
         }
     
         @include respond(big-desktop) {
-            font-size: 3rem;
+            font-size: 4rem;
         }
     }
 }

@@ -2,19 +2,16 @@ import React from 'react'
 import Navigation from '../components/navigation/Navigation'
 import Footer from '../components/footer/Footer'
 import Navbar from '../components/navbar/Navbar'
-import DriverHeader from '../components/drivers/DriverHeader'
 import Need from '../components/need/Need'
-import Swiper from '../components/swiper/Swiper'
 import Form from '../components/form/Form'
-import VideoSlider from '../components/swiper/Swiper'
+import Swiperr from '../components/swiper/Swiper'
+
 
 
 export default function Drivers() {
   return (
     <div>
-      {/* <Swiper /> */}
-      
-      <VideoSlider />
+      <Swiperr />
       <Need />
       <Form  />
       <Navigation />
