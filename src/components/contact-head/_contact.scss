@@ -38,8 +38,8 @@
     height: 15vw;
     border-radius: 10%;
     position: absolute;
-    top: 60%;
-    left: 65%;
+    top: 65%;
+    left: 55%;
     transform: translate(10%, -20%);
     box-sizing: border-box;
 
@@ -67,10 +67,6 @@
       height: 35vw;
     }
 
-    @include respond(big-desktop) {
-      top: 65%;
-      left: 50%;
-    }
   }
 
   &__name {
