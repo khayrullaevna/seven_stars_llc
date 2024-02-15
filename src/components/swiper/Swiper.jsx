@@ -87,16 +87,16 @@ export default function Swiperr() {
               style={{
                 position: "absolute",
                 top: "85%",
-                transform: "translate(0%, -30%)",
-                fontSize: "10rem",
+                left: "5%",
+                transform: "translate(5%, -30%)",
                 fontWeight: "bold",
                 textAlign: "center",
                 color: "#395c74ed",
-                textShadow: "2px 2px 4px rgba(0,0,0,0.5)",
+                textShadow: "2px 2px 4px rgba(0,0,0,0.2)",
                 transition: "color 0.5s ease, transform 0.5s ease",
               }}
             >
-              <p style={{ fontSize: "3vw", padding: "2vw",  margin: "2vw"}}>
+              <p style={{ fontSize: "3vw", padding: "1vw",  margin: "1vw"}}>
                 We understand the importance of safeguarding your valuable
                 assets
               </p>
