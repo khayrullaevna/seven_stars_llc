@@ -96,7 +96,7 @@ export default function Swiperr() {
                 transition: "color 0.5s ease, transform 0.5s ease",
               }}
             >
-              <p style={{ fontSize: "3.5vw", padding: "2vw",  margin: "2vw"}}>
+              <p style={{ fontSize: "3vw", padding: "2vw",  margin: "2vw"}}>
                 We understand the importance of safeguarding your valuable
                 assets
               </p>
