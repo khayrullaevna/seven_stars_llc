@@ -19,7 +19,7 @@ export default function Swiperr() {
         }}
         loop={true}
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div style={{ position: "relative", width: "100%", height: "100%" }}>
             <img
               src="img/1.png"
@@ -74,7 +74,7 @@ export default function Swiperr() {
               </p>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         <SwiperSlide>
           <div style={{ position: "relative", width: "100%", height: "100%" }}>
@@ -87,7 +87,7 @@ export default function Swiperr() {
               style={{
                 position: "absolute",
                 top: "85%",
-                transform: "translate(10%, -30%)",
+                transform: "translate(0%, -30%)",
                 fontSize: "10rem",
                 fontWeight: "bold",
                 textAlign: "center",
@@ -96,7 +96,7 @@ export default function Swiperr() {
                 transition: "color 0.5s ease, transform 0.5s ease",
               }}
             >
-              <p style={{ fontSize: "3vw", margin: 0 }}>
+              <p style={{ fontSize: "3.5vw", padding: "2vw",  margin: "2vw"}}>
                 We understand the importance of safeguarding your valuable
                 assets
               </p>
