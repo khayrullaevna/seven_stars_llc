@@ -86,9 +86,10 @@ export default function Swiperr() {
             <div
               style={{
                 position: "absolute",
-                top: "85%",
+                top: "82%",
                 left: "5%",
-                transform: "translate(5%, -30%)",
+                right: "5%",
+                // transform: "translate(0%, -5%)",
                 fontWeight: "bold",
                 textAlign: "center",
                 color: "#395c74ed",
