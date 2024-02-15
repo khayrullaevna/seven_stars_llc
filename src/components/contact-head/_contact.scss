@@ -66,6 +66,11 @@
       width: 35vw;
       height: 35vw;
     }
+
+    @include respond(big-desktop) {
+      top: 65%;
+      left: 55%;
+    }
   }
 
   &__name {

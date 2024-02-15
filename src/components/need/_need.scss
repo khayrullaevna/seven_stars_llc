@@ -7,6 +7,10 @@
         border-radius: 0.7rem;
         padding: 2.5rem 10rem;
         margin: 0 auto;
+
+        @include respond(phone) {
+          width: 55rem;
+        }
       }
       
       &__numbers {
