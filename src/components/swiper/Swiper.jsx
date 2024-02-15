@@ -1,10 +1,8 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Autoplay, A11y } from 'swiper/modules';
 
 import ReactPlayer from 'react-player';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -13,7 +11,7 @@ import 'swiper/css/scrollbar';
 const VideoSlider = () => {
   return (
     <Swiper
-      modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Autoplay, A11y]}
       spaceBetween={10}
       slidesPerView={1}
       autoplay={{
@@ -21,13 +19,14 @@ const VideoSlider = () => {
         disableOnInteraction: false,
       }}
       loop={true}
-      scrollbar={{ draggable: true }}
     >
-      <SwiperSlide>
+
+    
+<SwiperSlide>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
           <ReactPlayer
             url="vid/ss-v-5.webm"
-            playing
+            playing={true}
             loop
             muted
             width="100%"
@@ -41,8 +40,7 @@ const VideoSlider = () => {
             color: '#0b283c',
             fontSize: '10rem',
             fontWeight: 'bold',
-            textAlign: 'center',
-            textAlign: "right"
+            textAlign: 'right',
           }}>
             <p style={{ fontSize: '5vw', margin: 0 }}>
               We prioritize your peace of mind
@@ -55,7 +53,7 @@ const VideoSlider = () => {
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
           <ReactPlayer
             url="vid/ss-v-2.webm"
-            playing
+            playing={true}
             loop
             muted
             width="100%"
@@ -83,7 +81,7 @@ const VideoSlider = () => {
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
           <ReactPlayer
             url="vid/ss-v-3.webm"
-            playing
+            playing={true}
             loop
             muted
             width="100%"
@@ -92,8 +90,6 @@ const VideoSlider = () => {
           <div style={{
             position: 'absolute',
             top: '87%',
-            // left: '50%',
-            // right: '20%',
             transform: 'translate(5%, -50%)',
             color: '#0b283c',
             fontSize: '10rem',
