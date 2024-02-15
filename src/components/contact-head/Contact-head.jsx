@@ -8,7 +8,7 @@ export default function ContactHead() {
 
       <div className='contactHeader__card'>
         <p className='contactHeader__name'>Gmail:</p>
-        <p className='contactHeader__answer'>dispatch@7starsllc.com</p>
+        <p className='contactHeader__answer'>hr@7starsllc.com</p>
 
         <p className='contactHeader__name'>Telegram Link:</p>
         <p className='contactHeader__answer'>https://t.me/alexegamov</p>
