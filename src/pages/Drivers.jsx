@@ -11,7 +11,7 @@ import GoogleTranslate from '../GoogleTranslate'
 export default function Drivers() {
   return (
     <div>
-      <GoogleTranslate />
+      {/* <GoogleTranslate /> */}
       <Swiperr />
       <Need />
       <Form  />

@@ -1,5 +1,4 @@
 import React from "react";
-// import ReactPlayer from "react-player"; // Remove ReactPlayer import
 
 export default function AboutInfo() {
   return (
@@ -14,13 +13,13 @@ export default function AboutInfo() {
       >
         <img
           src="img/about.png"
-          alt="Video"
-          style={{ width: "100%", height: "auto" }}
+          alt="image"
+          style={{ width: "100%", height: "auto",}}
         />
         <div
           style={{
             position: "absolute",
-            top: 0,
+            top: "20%",
             left: 0,
             width: "100%",
             height: "100%",
@@ -31,8 +30,8 @@ export default function AboutInfo() {
         <div
           style={{
             position: "absolute",
-            padding: "10vw",
-            top: "22%",
+            padding: "5vw",
+            top: "20%",
             left: "50%",
             right: "-40%",
             transform: "translate(-50%, -50%)",
