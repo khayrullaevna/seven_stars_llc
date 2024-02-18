@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AboutInfo() {
   return (
-    <main>
+    <main className="about-section">
       <div
         style={{
           position: "relative",
@@ -12,21 +12,11 @@ export default function AboutInfo() {
           height: "auto",
         }}
       >
-        {/* <ReactPlayer
-          url="vid/ss-v-1.webm"
-          playing
-          loop
-          muted
-          width="100%"
-          height="auto"
-          style={{ position: "relative", top: 0, left: 0 }}
-        /> */}
         <img
           src="img/about.png"
           alt="Video"
           style={{ width: "100%", height: "auto" }}
         />
-        {/* Gradient overlay */}
         <div
           style={{
             position: "absolute",
@@ -41,8 +31,8 @@ export default function AboutInfo() {
         <div
           style={{
             position: "absolute",
-            padding: '10vw',
-            top: "27%",
+            padding: "10vw",
+            top: "22%",
             left: "50%",
             right: "-40%",
             transform: "translate(-50%, -50%)",

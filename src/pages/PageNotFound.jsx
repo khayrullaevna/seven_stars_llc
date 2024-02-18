@@ -6,7 +6,7 @@ import NotFound from '../components/notFound/NotFound';
 export default function PageNotFound() {
   return (
     <div>
-        <Navigation/> 
+        {/* <Navigation/>  */}
         <NotFound />
         <Navbar />
     </div>

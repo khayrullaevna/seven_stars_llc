@@ -12,7 +12,7 @@ export default function Contact() {
       
 
       <Navbar />
-      <Navigation />
+      {/* <Navigation /> */}
       <ContactHead />
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <Location />
