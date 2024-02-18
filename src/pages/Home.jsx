@@ -9,7 +9,7 @@ import GoogleTranslate from '../GoogleTranslate'
 export default function Home() {
   return (
     <div >
-      <GoogleTranslate />
+    <GoogleTranslate />
     <Header />
     <Skills />
     <Partner />
