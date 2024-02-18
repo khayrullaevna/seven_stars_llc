@@ -8,7 +8,7 @@ import "swiper/css/scrollbar";
 
 export default function Swiperr() {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <Swiper
         modules={[Autoplay, A11y]}
         spaceBetween={10}

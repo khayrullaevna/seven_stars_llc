@@ -115,6 +115,6 @@
 /* Additional styling to mimic the provided screenshot as closely as possible */
 
 .file_input{
-    width: 600vw; /* Adjust as needed */
+    width: 100%; /* Corrected to ensure the file input fits within the form */
     margin: 0 auto; /* Center the form horizontally */
 }
