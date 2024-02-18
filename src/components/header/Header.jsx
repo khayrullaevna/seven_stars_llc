@@ -2,11 +2,9 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 export default function Header() {
+
   return (
     <header className="header">
-        {/* <div className="header__logo-box">
-            <img className="header__logo" src="img/logo.png" alt="logo" />
-        </div> */}
 
         
         <div className="header__text-box">

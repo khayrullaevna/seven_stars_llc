@@ -5,6 +5,7 @@ import Navbar from '../components/navbar/Navbar'
 import Location from '../components/location/Location'
 import Partner from '../components/partners/Partner'
 import ContactHead from '../components/contact-head/Contact-head'
+import GoogleTranslate from '../GoogleTranslate'
 
 export default function Contact() {
   return (
@@ -13,6 +14,7 @@ export default function Contact() {
 
       <Navbar />
       {/* <Navigation /> */}
+      <GoogleTranslate />
       <ContactHead />
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <Location />
