@@ -19,11 +19,10 @@ export default function AboutInfo() {
         <div
           style={{
             position: "absolute",
-            top: "20%",
+            top: 0,
             left: 0,
             width: "100%",
             height: "100%",
-            marginTop: "-17rem",
             backgroundImage:
               "linear-gradient(to bottom, rgba(0,0,0,0.4), hsla(228, 65%, 21%, 0.6))",
           }}
