@@ -10,11 +10,10 @@ import GoogleTranslate from '../GoogleTranslate'
 export default function Contact() {
   return (
     <div>
-      
-
+      {/* <GoogleTranslate /> */}
       <Navbar />
       {/* <Navigation /> */}
-      <GoogleTranslate />
+      {/* <GoogleTranslate /> */}
       <ContactHead />
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <Location />

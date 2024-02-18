@@ -11,12 +11,11 @@ import GoogleTranslate from '../GoogleTranslate'
 export default function Drivers() {
   return (
     <div>
-      <Navbar />
       <GoogleTranslate />
       <Swiperr />
       <Need />
       <Form  />
-      
+      <Navbar />
       <Footer />
     </div>
   )
