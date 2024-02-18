@@ -14,7 +14,7 @@ export default function Home() {
     <Partner />
     <Footer />
     <Navbar />
-    <Navigation />
+    {/* <Navigation /> */}
 
     </div>
   )

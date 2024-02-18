@@ -12,6 +12,7 @@ export default function Form() {
     about: "",
     resume: null,
     cdl: null,
+    card: null,
     agreeTerms: false,
     agreeSMS: false,
   });
@@ -202,6 +203,7 @@ export default function Form() {
 
         <label className="label">Upload your CDL:</label>
         <input
+        className="file_input"
           type="file"
           id="my_file"
           name="cdl"
