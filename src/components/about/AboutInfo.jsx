@@ -31,7 +31,7 @@ export default function AboutInfo() {
           style={{
             position: "absolute",
             padding: "5vw",
-            top: "20%",
+            top: "22%",
             left: "50%",
             right: "-40%",
             transform: "translate(-50%, -50%)",
